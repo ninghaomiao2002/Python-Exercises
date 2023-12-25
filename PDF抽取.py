@@ -21,9 +21,12 @@ def extract_page(pdf_path, page_number, output_path):
         else:
             print(f"Invalid page number. The PDF has {len(pdf_reader.pages)} pages.")
 
-# Example usage
-pdf_path = 'G:\\IDs and Accounts\\Ninghao\\Psssport2023.pdf'  # Replace with the path to your PDF file
-output_path = 'G:\\IDs and Accounts\\Ninghao\\Psssport2023page4.pdf'  # Replace with the desired output path
-page_number = 3  # Replace with the desired page number
+
+pdf_path = 'G:\\IDs and Accounts'  
+# Replace with the path to your PDF file
+output_path = 'G:\\IDs and Accounts'  
+# Replace with the desired output path
+page_number = 3  
+# Replace with the desired page number
 
 extract_page(pdf_path, page_number, output_path)

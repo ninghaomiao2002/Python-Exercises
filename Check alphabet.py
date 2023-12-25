@@ -1,4 +1,4 @@
-# check if it is a alphabet
+# Alphabet Check
 
 a = input('please enter: ')
 result = a.isalpha()

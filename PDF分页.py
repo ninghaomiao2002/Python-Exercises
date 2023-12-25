@@ -25,8 +25,8 @@ def extract_all_pages(pdf_path, output_folder, output_template):
             print(f"Page {page_number} extracted successfully to {output_path}")
 
 # Example usage
-pdf_path = 'G:\\IDs and Accounts\\Ninghao\\Psssport2023.pdf'  # Replace with the path to your PDF file
-output_folder = 'G:\\IDs and Accounts\\Ninghao\\ExtractedPages'  # Replace with the desired output folder
+pdf_path = 'G:\\IDs and Accounts'  # Replace with the path to your PDF file
+output_folder = 'G:\\IDs and Accounts'  # Replace with the desired output folder
 output_template = 'Page_{page_number}.pdf'  # Define the output path template
 
 extract_all_pages(pdf_path, output_folder, output_template)

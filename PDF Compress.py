@@ -1,5 +1,4 @@
-# Python code to demonstrate PDF compression using PyPDF2 library.
-# This code assumes that PyPDF2 is installed and the user provides the input and output file paths.
+# PDF Compress 
 
 import PyPDF2
 

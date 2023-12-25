@@ -1,3 +1,4 @@
+# Hash Map
 def hashMap(queryType, query):
     hashmap = {}
     result_sum = 0
